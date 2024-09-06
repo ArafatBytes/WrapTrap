@@ -1,8 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap");
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: large;
   color: #0c0c0c;
   background-color: #ffffff;
   overflow-x: hidden;
@@ -14,16 +19,29 @@ body {
 }
 
 .logo-menu {
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
 }
 
 .montserrat {
   font-family: "Montserrat";
+  padding-bottom: 1rem;
+}
+
+.montserrat1 {
+  font-family: "Montserrat";
+}
+
+.montserrat2 {
+  font-family: "Montserrat", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  padding-bottom: 2rem;
 }
 
 .img-b {
-  max-width: 90%;
+  max-width: 100%;
 }
 
 .food_section {
@@ -129,7 +147,7 @@ a:focus {
 .bg-box {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 30rem;
   width: 100%;
   height: 100%;
 }
@@ -163,7 +181,7 @@ a:focus {
 }
 
 .header_section {
-  padding: 15px 0;
+  padding: 2rem 0;
 }
 
 .header_section .container-fluid {
@@ -187,6 +205,11 @@ a:focus {
 
 .custom_nav-container .navbar-nav {
   padding-left: 18%;
+}
+
+.navbar-nav {
+  display: flex;
+  column-gap: 3rem;
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
@@ -283,6 +306,11 @@ a:focus {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
+  font-family: "Montserrat", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: large;
 }
 
 .order_online:hover {
@@ -365,8 +393,12 @@ a:focus {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  position: relative;
+  position: absolute;
   padding: 45px 0 75px 0;
+  top: 0;
+  height: 100%;
+  background-color: #86100d;
+  max-width: 42rem;
 }
 
 .slider_section .row {
@@ -383,6 +415,8 @@ a:focus {
 .slider_section .detail-box {
   color: #ffffff;
   margin-bottom: 145px;
+  padding: 5rem;
+  margin-top: 10rem;
 }
 
 .slider_section .detail-box h1 {
@@ -670,6 +704,8 @@ a:focus {
 .about_section {
   background: #222831;
   color: #ffffff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .about_section .row {
@@ -959,6 +995,10 @@ a:focus {
   text-align: center;
 }
 
+.getintouch {
+  margin-top: 2rem;
+}
+
 .footer_section h4 {
   font-size: 28px;
 }
@@ -967,7 +1007,7 @@ a:focus {
 .footer_section .footer-logo {
   font-weight: 600;
   margin-bottom: 20px;
-  font-family: "Dancing Script", cursive;
+  font-family: "Montserrat", cursive;
 }
 
 .footer_section p {

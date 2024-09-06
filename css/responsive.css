@@ -1,6 +1,8 @@
-@media (max-width: 1300px) {}
+@media (max-width: 1300px) {
+}
 
-@media (max-width: 1120px) {}
+@media (max-width: 1120px) {
+}
 
 @media (max-width: 992px) {
   .hero_area {
@@ -9,11 +11,11 @@
 
   .custom_nav-container .navbar-nav {
     padding-top: 15px;
-padding-left: 0;
+    padding-left: 0;
     align-items: center;
   }
 
-  .user_option{
+  .user_option {
     justify-content: center;
     margin-top: 15px;
   }
@@ -39,7 +41,6 @@ padding-left: 0;
 }
 
 @media (max-width: 767px) {
-
   .about_section .detail-box,
   .book_section .form_container {
     margin-bottom: 45px;
@@ -58,11 +59,151 @@ padding-left: 0;
     margin-right: 15px;
     margin-bottom: 0;
   }
+
+  h1 {
+    font-size: 1.2rem !important;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+  }
+
+  h3 {
+    font-size: 0.8rem !important;
+  }
+
+  h4 {
+    font-size: 1.3rem !important;
+  }
+
+  h5 {
+    font-size: 1rem !important;
+  }
+
+  h6 {
+    font-size: 1rem !important;
+  }
+
+  p {
+    font-size: 0.8rem !important;
+  }
+
+  body {
+    font-size: small;
+  }
+
+  .footer-logo {
+    font-size: 1.5rem !important;
+  }
+
+  .detail-box {
+    padding-top: 3rem;
+  }
+
+  .heading_container {
+    align-items: center;
+  }
+
+  .about-details {
+    text-align: center;
+  }
+
+  .about-img {
+    max-width: 80% !important;
+  }
+
+  .about_section {
+    padding-bottom: 0rem;
+  }
+
+  .footer_section {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .contact-us {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .menu-food {
+    margin-top: 0rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .logo-menu {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .navbar-brand {
+    padding-left: 1rem;
+  }
+
+  .food_section {
+    margin-top: 5rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  .getintouch {
+    margin-top: 1rem !important;
+  }
+
+  .footer-col {
+    margin-bottom: 1.2rem !important;
+  }
+
+  .slider_section {
+    top: 12rem;
+    max-width: 80vw;
+    margin-left: 2.5rem;
+    border-radius: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .show {
+    margin-top: -5rem !important;
+  }
+
+  .montserrat {
+    padding-bottom: 0rem;
+    padding-top: 0.5rem;
+  }
+
+  .montserrat2 {
+    padding-bottom: 2.2rem;
+  }
+
+  .slider_section .detail-box {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 6rem;
+  }
+
+  .order-btn {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .bg-box {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 230%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+
+  .food_section {
+    margin-top: 15rem;
+  }
 }
 
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+}
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+}
 
 @media (max-width: 430px) {
   .offer_section .box {
@@ -88,8 +229,7 @@ padding-left: 0;
   }
 }
 
-
-@media (min-width:576px) and (max-width:991px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .rent_solution_container .col-md-4.col-sm-6 {
     float: left;
     width: 50%;
