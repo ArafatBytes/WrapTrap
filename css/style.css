@@ -23,8 +23,16 @@ body {
   height: 5rem;
 }
 
+.header_section {
+  visibility: hidden;
+}
+
 .montserrat {
-  font-family: "Montserrat";
+  font-family: "Montserrat", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 3.5rem;
   padding-bottom: 1rem;
 }
 
@@ -35,13 +43,25 @@ body {
 .montserrat2 {
   font-family: "Montserrat", system-ui;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
   padding-bottom: 2rem;
 }
 
 .img-b {
-  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 215px;
+  width: 362px;
+  border-radius: 0 0 0 45px;
+  margin: -1px;
+  padding: 0rem !important;
+  box-sizing: border-box;
+}
+
+.img-box {
+  padding: 0rem !important;
 }
 
 .food_section {
@@ -398,7 +418,7 @@ a:focus {
   top: 0;
   height: 100%;
   background-color: #86100d;
-  max-width: 42rem;
+  max-width: 35vw;
 }
 
 .slider_section .row {
@@ -578,6 +598,8 @@ a:focus {
 .food_section .filters_menu li.active {
   background-color: #222831;
   color: #ffffff;
+  width: 127px;
+  text-align: center;
 }
 
 .food_section .box {
@@ -609,8 +631,6 @@ a:focus {
 }
 
 .food_section .box .img-box img {
-  max-width: 100%;
-  max-height: 145px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -704,8 +724,8 @@ a:focus {
 .about_section {
   background: #222831;
   color: #ffffff;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0rem;
 }
 
 .about_section .row {
@@ -991,7 +1011,7 @@ a:focus {
 .footer_section {
   background-color: #222831;
   color: #ffffff;
-  padding: 75px 0 40px 0;
+  padding: 0 0 1rem 0;
   text-align: center;
 }
 
