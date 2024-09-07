@@ -598,7 +598,9 @@ a:focus {
 .food_section .filters_menu li.active {
   background-color: #222831;
   color: #ffffff;
-  width: 127px;
+  width: 140px;
+  padding-left: 15px;
+  padding-right: 15px;
   text-align: center;
 }
 
@@ -724,8 +726,8 @@ a:focus {
 .about_section {
   background: #222831;
   color: #ffffff;
-  padding-top: 0.5rem;
-  padding-bottom: 0rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .about_section .row {
